@@ -1,0 +1,152 @@
+p {
+      color: rgb(96, 6, 97);
+    }
+    
+    body {
+      background-color: rgb(240, 222, 241);
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    div {
+      padding: 20px;
+      margin: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ee0e98;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f6a6df;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #e90e8a;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #c6098d;
+      color: rgb(232, 220, 231);
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #db09d1;
+    }
+    .transition-button {
+        background-color: rgb(239, 8, 127);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(241, 19, 227);
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(211, 13, 161);
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(232, 140, 202);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(236, 15, 162);
+      }
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(213, 20, 142);
+      }
+      .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: rgb(173, 12, 154);
+    padding: 20px;
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgb(223, 72, 215);
+    padding: 20px;
+    text-align: center;
+  }
+  .responsive-box {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .responsive-box {
+      background-color: rgb(18, 159, 27);
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .responsive-box {
+      background-color: rgb(239, 220, 8);
+    }
+  }
