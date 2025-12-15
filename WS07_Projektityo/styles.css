@@ -1,0 +1,6 @@
+.hero {
+  background-image: url('parempi kuva nettisivuun.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0; /* lisää tilaa ylös ja alas */
+}

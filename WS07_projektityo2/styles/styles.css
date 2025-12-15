@@ -1,0 +1,12 @@
+<style>
+.small-img {
+  width: 50px;
+  height: auto;
+}
+</style>
+
+<div class="text-center">
+  <img src="..." class="rounded small-img" alt="...">
+</div>
+
+
