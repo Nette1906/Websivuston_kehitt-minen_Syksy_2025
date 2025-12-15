@@ -1,0 +1,18 @@
+.pastel-navbar {
+  background-color: #f7c1d9; /* pastelli vaaleanpunainen */
+}
+
+.pastel-navbar .navbar-brand,
+.pastel-navbar .nav-link,
+.pastel-navbar .navbar-text {
+  color: white !important;
+}
+
+/* hamburger-ikonin väri */
+.pastel-navbar .navbar-toggler {
+  border-color: white;
+}
+
+.pastel-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
